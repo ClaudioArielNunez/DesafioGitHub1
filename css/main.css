@@ -1,0 +1,136 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.bgColor {
+  background-color: #F2CC0F;
+}
+
+.imgLogo {
+  width: 150px;
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+nav ul li a:hover {
+  font-weight: bolder;
+}
+
+.pie {
+  text-align: center;
+  color: #f30808;
+  padding: 5px;
+  background-color: #F2CC0F;
+}
+
+.pie__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pie__icons--size {
+  width: 30px;
+  margin-right: 20px;
+}
+
+/* .facebook-icon { 
+  background-image: url(../img/facebook.png);
+  width: 30px;
+  margin-right: 20px;
+}
+
+.instagram-icon {
+  background-image: url(../img/instagram.png);
+  width: 30px;
+  margin-right: 20px;
+}
+
+.youtube-icon {
+  background-image: url(../img/youtube.png);
+  width: 30px;
+  margin-right: 20px;
+}*/
+
+.boxVideo {
+  background-color: #cccccc;
+  border-radius: 15px;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.boxVideo__title {
+  color: #f30808;
+  text-transform: capitalize;
+}
+
+.boxVideo__img {
+  width: 90%;
+}
+
+.boxList {
+  padding: 20px;
+}
+
+.boxList__title {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #cccccc;
+          text-decoration-color: #cccccc;
+}
+
+.boxList__text {
+  text-transform: capitalize;
+}
+
+.modBody {
+  background: -webkit-gradient(linear, left top, left bottom, from(#F2CC0F), to(white));
+  background: linear-gradient(to bottom, #F2CC0F, white);
+}
+
+.modBody__title {
+  color: #f30808;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=main.css.map */
