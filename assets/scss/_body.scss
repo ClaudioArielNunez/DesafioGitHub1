@@ -1,0 +1,39 @@
+.boxVideo{
+    background-color: #cccccc;
+	border-radius: 15px;
+	padding: 5px ;
+    display: flex;
+    flex-direction: column;
+	align-items: center;	
+}
+.boxVideo__title{
+    color: $secondary;
+    text-transform:capitalize;
+}
+.boxVideo__img{
+    width: 90%;
+}
+//-------------------------------
+.boxList{
+    padding: 20px;
+}
+.boxList__title{
+    text-decoration:underline;
+    text-decoration-color:#cccccc;
+}
+
+
+.boxList__text{
+    text-transform: capitalize;
+}
+//-------------------------------
+.modBody{
+    background:linear-gradient(to bottom, $primary,white);
+}
+.modBody__title{
+    color: $secondary;
+    text-transform: capitalize;
+    
+
+}
+
