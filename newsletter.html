@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <title>Newsletter</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html">
+            <img  src="./assets/img/logo1-removebg-preview.png" alt="bruce_lee_logo"   class="imgLogo">
+       </a> 
+        <nav>
+            <ul>
+                <li><a href="./index.html">HOME</a> </li>
+                <li><a href="./biografia.html">BIOGRAFÍA</a> </li>
+                <li><a href="./filmografia.html">FILMOGRAFÍA</a> </li>
+                <li><a href="./noticias.html">NOTICIAS</a> </li>
+                <li><a href="./newsletter.html" class="active" >NEWSLETTER</a> </li>
+            </ul>
+        </nav>
+    </header>
+        <img src="./assets/img/enterthedragon.jpg" alt="" width="100%">
+    <main>
+        <h1>Newsletter</h1>
+        <p>
+            Si te gusta el contenido que lees en nuestra web, podés suscribirte totalmente gratis para recibir todas las semanas contenido en tu mail.
+        </p>
+        <p>Para suscribirte llená el siguiente formulario:</p>
+        <section class="prueba3" >
+            <form action="archivo.php" method="post" >
+                <fieldset>
+                    <legend><h2>Información Personal</h2></legend>
+                    <label for="name" >Nombre</label>
+                    <input type="text" id="name">
+                    <br>
+                    <br>
+                    <label for="email" name="correo">Email</label>
+                    <input type="email" id="correo" placeholder="usuario@.com.ar">
+                    <br>
+                    <br>
+                    <span>¿Sobre que tema preferirías que trate el Newsletter?</span>
+                     <select name="tema" >
+                     <option value="filo">Filosofía Oriental</option>
+                     <option value="artes_marciales">Artes Marciales</option>
+                     <option value="movies">Películas</option>
+                     <option value="gym">Entrenamiento</option>
+                    </select>
+                    <br>
+                    <br>
+                    <div>¿Practicas algún arte marcial actualmente?</div>
+                    <input type="radio" name="practica" id="artes_marciales" value="si">
+                    <label for="artes_marciales">SI</label>
+                    <input type="radio" name="practica" id="artes_marciales" value="no">
+                    <label for="artes_marciales">NO</label>
+                    <br>
+                    <span>Si tu respuesta es sí, qué arte marcial es? </span>
+                    <br>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+                    <br>
+                    <input type="reset">
+                    <br>
+                    <br>
+                    <label for="accept">Acepto recibir el Newsletter en mi correo</label>
+                    <input type="checkbox" id="accept" name="accept" value="si" required>
+                    <input class="submitBoton" type="submit">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <br>
+    <hr>
+    <footer>
+        <div>
+            <h3>Síguenos en nuestras Redes Sociales</h3>
+        </div>
+        <div>
+                <a href="https://www.facebook.com/BruceLee/" target="_blank">
+                    <img class="icons" src="./assets/img/facebook.png" alt="facebook_logo" width="50px"></a>
+            
+                <a href="https://www.instagram.com/brucelee/" target="_blank">
+                    <img class="icons" src="./assets/img/instagram.png" alt="instagram_logo"width="50px"><a>
+            
+                <a href="https://www.youtube.com/c/brucelee" target="_blank">
+                    <img class="icons" src="./assets/img/youtube.png" alt="youtube_logo" width="50px"></a>
+        </div>
+    </footer>
+    
+</body>
+</html>
